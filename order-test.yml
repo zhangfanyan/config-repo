@@ -1,1 +1,15 @@
-# config-repo
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 2388187++abcABC
+    url: jdbc:mysql://localhost:3306/springcloud_sell?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+env:
+  test999
